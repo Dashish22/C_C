@@ -49,7 +49,6 @@ typedef struct node {
  по всему списку, чтобы узнать число элементов. На коротких списках ok, но
 
  на длинных — проблема.
-
  Для удобства мы определили тип list_t.
 
  */
@@ -82,7 +81,7 @@ void free_list(list_t * const lst);             // Удалить список
 
 void push(struct node* head, int data);         // Добавляет данные в список                          (from student)
 
-/*void push_test();                               // Тустирует push                                     (from student)
+/*void push_test();                               // Тестирует push                                     (from student)
 
 */
 
